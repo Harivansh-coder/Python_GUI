@@ -1,5 +1,5 @@
 # Python_GUI
 Contains some GUI application implemented in python<br/>
-# Frameeworks used
+# Frameworks used
 > Tkinter <br/>
 > Pyqt5
