@@ -25,21 +25,21 @@ def result():
         operand1 = float(current[:i])
         operand2 = float(current[i + 1:len(current)])
         clear_screen()
-        screen.insert(0,str(operand1 * operand2))
+        screen.insert(0,str(operand1 + operand2))
 
     elif "-" in current:
         i = current.index("-")
         operand1 = float(current[:i])
         operand2 = float(current[i + 1:len(current)])
         clear_screen()
-        screen.insert(0,str(operand1 * operand2))
+        screen.insert(0,str(operand1 - operand2))
 
     elif "/" in current:
         i = current.index("/")
         operand1 = float(current[:i])
         operand2 = float(current[i + 1:len(current)])
         clear_screen()
-        screen.insert(0,str(operand1 * operand2))
+        screen.insert(0,str(operand1 / operand2))
 
     else:
         i = current.index("*")
